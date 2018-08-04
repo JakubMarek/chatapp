@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3BBF3F342115EE76007EC881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF3F332115EE76007EC881 /* AppDelegate.swift */; };
-		3BBF3F362115EE76007EC881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF3F352115EE76007EC881 /* ViewController.swift */; };
 		3BBF3F392115EE76007EC881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF3F372115EE76007EC881 /* Main.storyboard */; };
 		3BBF3F3B2115EE77007EC881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF3F3A2115EE77007EC881 /* Assets.xcassets */; };
 		3BBF3F3E2115EE77007EC881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF3F3C2115EE77007EC881 /* LaunchScreen.storyboard */; };
 		3BBF3F492115F575007EC881 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF3F482115F575007EC881 /* SWRevealViewController.m */; };
+		3BBF3F4E21160D67007EC881 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF3F4D21160D67007EC881 /* ChatVC.swift */; };
+		3BBF3F5021160D80007EC881 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF3F4F21160D80007EC881 /* ChannelVC.swift */; };
+		3BBF3F5221163B37007EC881 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF3F5121163B37007EC881 /* GradientView.swift */; };
 		675CDEF1471FF51E676EA393 /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D3B6490CED5A1727EAAAF6 /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +23,6 @@
 		3BB2353D80552E827BC5A30B /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		3BBF3F302115EE76007EC881 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBF3F332115EE76007EC881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BBF3F352115EE76007EC881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BBF3F382115EE76007EC881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BBF3F3A2115EE77007EC881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BBF3F3D2115EE77007EC881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +30,9 @@
 		3BBF3F462115F574007EC881 /* ChatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		3BBF3F472115F575007EC881 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		3BBF3F482115F575007EC881 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3BBF3F4D21160D67007EC881 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		3BBF3F4F21160D80007EC881 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		3BBF3F5121163B37007EC881 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		50D3B6490CED5A1727EAAAF6 /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,8 +70,10 @@
 		3BBF3F322115EE76007EC881 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				3BBF3F4C21160D44007EC881 /* Model */,
+				3BBF3F4B21160D3E007EC881 /* View */,
+				3BBF3F4A21160D36007EC881 /* Controller */,
 				3BBF3F332115EE76007EC881 /* AppDelegate.swift */,
-				3BBF3F352115EE76007EC881 /* ViewController.swift */,
 				3BBF3F372115EE76007EC881 /* Main.storyboard */,
 				3BBF3F3A2115EE77007EC881 /* Assets.xcassets */,
 				3BBF3F3C2115EE77007EC881 /* LaunchScreen.storyboard */,
@@ -84,6 +90,30 @@
 				3BBF3F462115F574007EC881 /* ChatApp-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BBF3F4A21160D36007EC881 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF3F4D21160D67007EC881 /* ChatVC.swift */,
+				3BBF3F4F21160D80007EC881 /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3BBF3F4B21160D3E007EC881 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF3F5121163B37007EC881 /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BBF3F4C21160D44007EC881 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		8447AA6DDA253B1EF08A38A2 /* Pods */ = {
@@ -222,7 +252,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BBF3F362115EE76007EC881 /* ViewController.swift in Sources */,
+				3BBF3F5021160D80007EC881 /* ChannelVC.swift in Sources */,
+				3BBF3F4E21160D67007EC881 /* ChatVC.swift in Sources */,
+				3BBF3F5221163B37007EC881 /* GradientView.swift in Sources */,
 				3BBF3F342115EE76007EC881 /* AppDelegate.swift in Sources */,
 				3BBF3F492115F575007EC881 /* SWRevealViewController.m in Sources */,
 			);
