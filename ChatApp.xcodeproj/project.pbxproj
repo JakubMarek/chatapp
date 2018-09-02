@@ -11,6 +11,8 @@
 		3BB17BAA2127FCBA008959DA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB17BA92127FCBA008959DA /* AuthService.swift */; };
 		3BB17BAC21280E2A008959DA /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB17BAB21280E2A008959DA /* RoundedButton.swift */; };
 		3BB17BAE21283CEE008959DA /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB17BAD21283CEE008959DA /* UserDataService.swift */; };
+		3BB17BB021285F9C008959DA /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB17BAF21285F9C008959DA /* AvatarPickerVC.swift */; };
+		3BB17BB221286111008959DA /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB17BB121286111008959DA /* AvatarCell.swift */; };
 		3BBF3F342115EE76007EC881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF3F332115EE76007EC881 /* AppDelegate.swift */; };
 		3BBF3F392115EE76007EC881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF3F372115EE76007EC881 /* Main.storyboard */; };
 		3BBF3F3B2115EE77007EC881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBF3F3A2115EE77007EC881 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		3BB17BA92127FCBA008959DA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		3BB17BAB21280E2A008959DA /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		3BB17BAD21283CEE008959DA /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		3BB17BAF21285F9C008959DA /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		3BB17BB121286111008959DA /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		3BB2353D80552E827BC5A30B /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		3BBF3F302115EE76007EC881 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBF3F332115EE76007EC881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 				3BBF3F4F21160D80007EC881 /* ChannelVC.swift */,
 				3BBF3F56211648AD007EC881 /* LoginVC.swift */,
 				3B2281F22121406E00C4114B /* CreateAccountVC.swift */,
+				3BB17BAF21285F9C008959DA /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			children = (
 				3BBF3F5121163B37007EC881 /* GradientView.swift */,
 				3BB17BAB21280E2A008959DA /* RoundedButton.swift */,
+				3BB17BB121286111008959DA /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BBF3F5021160D80007EC881 /* ChannelVC.swift in Sources */,
+				3BB17BB021285F9C008959DA /* AvatarPickerVC.swift in Sources */,
 				3BB17BAC21280E2A008959DA /* RoundedButton.swift in Sources */,
 				3BBF3F4E21160D67007EC881 /* ChatVC.swift in Sources */,
 				3BB17BAE21283CEE008959DA /* UserDataService.swift in Sources */,
@@ -294,6 +301,7 @@
 				3BB17BAA2127FCBA008959DA /* AuthService.swift in Sources */,
 				3BBF3F57211648AD007EC881 /* LoginVC.swift in Sources */,
 				3BBF3F5221163B37007EC881 /* GradientView.swift in Sources */,
+				3BB17BB221286111008959DA /* AvatarCell.swift in Sources */,
 				3BBF3F342115EE76007EC881 /* AppDelegate.swift in Sources */,
 				3BBF3F492115F575007EC881 /* SWRevealViewController.m in Sources */,
 				3BBF3F55211644AA007EC881 /* Constants.swift in Sources */,
